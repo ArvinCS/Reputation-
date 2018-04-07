@@ -1,0 +1,55 @@
+# =====================SETTINGS======================== #
+# Prefix Chat = Enable reputation prefix on chat #
+# Prefix = Prefix on Chat #
+# Silent-JoinQuit = Disable Join / Leave Messages #
+# RightClick-GUI = Enable / Disable Right Click Player #
+# Cooldown-Request = /rep request command cooldown #
+# AnimatedNames-Tag = Enable Placeholder for Animated Names #
+# Chat-Fiture = Enable / Disable [!rep, !like, !dislike] #
+# Rep-Cooldown = Set cooldown to rep a player #
+# Daily-Point = Daily Point player got every 1 day #
+# ===================================================== #
+Prefix-Chat: true
+# Prefix on Chat
+Prefix: '&a[&b{REP}&a]&r '
+# Prefix for plugin system
+Prefix Plugin: '&a[&bRep+&a]&r '
+# Disable join leave message
+Silent-JoinQuit: true
+# Right Click Player to open GUI 
+RightClick-GUI: true
+# Cooldown use via Seconds
+Cooldown-Request: 3
+# AnimatedNames on / off
+AnimatedNames-Tag: false
+# Chat Fiture
+Chat-Fiture: true
+# Reputation Cooldown
+Rep-Cooldown: 86400
+# Daily Point
+Daily-Point: 10
+# Minimal Play Time
+Min-PlayTime: 3600
+# Database [For bungee server set to MySQL]
+Database Type: SQLite
+# MySQL Settings
+MySQL:
+    Host: 'yourhost'
+    Port: 'yourport'
+    Database: 'yourdatabase'
+    User: 'youruser'
+    Password: 'yourpassword'
+# When player get good/bad rep will launch command
+Rep:
+    Good:
+        Command: 
+        - ''
+    Bad:
+        Command:
+        - ''
+    Follow:
+        Command:
+        - ''
+    Ignore:
+        Command:
+        - ''

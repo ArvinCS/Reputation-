@@ -1,0 +1,31 @@
+Skull:
+    Name: '&bName: &r{PLAYER}'
+    Lore:
+    - '&6Reputation: {REP}'
+    - '&aLike: {LIKE}'
+    - '&cDislike: {DISLIKE}'
+Point:
+    Name: '&6Your Point'
+    Lore:
+    - '&6Point: &r{POINT}'
+LikeButton:
+    Name: "&a{PLAYER}'s Like"
+    Lore:
+    - '&bLeft Click to Like !'
+    - '&aLike: &r{LIKE}'
+Reputation:
+    Name: '&6{PLAYER}''s Reputation'
+    Lore:
+    - '&6Reputation: &r{REP}'
+DislikeButton:
+    Name: '&c{PLAYER}''s Dislike'
+    Lore:
+    - '&bClick to Dislike !'
+    - '&cDislike: &r0'
+Follow/IgnoreButton:
+    Name: "&aFollow/&cIgnore &r{PLAYER}"
+    Lore:
+    - '&bLeft Click to Follow'
+    - '&bRight Click to Ignore'
+    - '&aFollower: {FOLLOWER}'
+    - '&cIgnorer: {IGNORER}'
