@@ -1,0 +1,16 @@
+name: Reputation
+author: ArvinCS
+description: Check player reputation here !
+version: 5.5b
+main: me.arvin.reputationp.Main
+softdepends: [PlaceholderAPI]
+commands:
+   reputation:
+      description: Heal player health !
+      aliases: [rep]
+   reputationlike:
+      description: Instant command to like !
+      aliases: [replike]
+   reputationdislike:
+      description: Instant command to dislike !
+      aliases: [repdislike]
